@@ -140,7 +140,7 @@ document.querySelectorAll('.color-swatch').forEach(swatch => {
     } else {
       // Dark background
       tedxLogo.src = 'TEDX_white.png';
-      ufLogo.src = 'Unclutter_white.png';
+      ufLogo.src = 'unclutter_white.png';
     }
 
     colorOptions.classList.remove('open');
@@ -173,4 +173,5 @@ timerDisplay.classList.add('paused');
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js")
     .then(() => console.log("Service Worker Registered"));
+
 }
